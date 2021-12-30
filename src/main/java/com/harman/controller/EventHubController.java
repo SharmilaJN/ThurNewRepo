@@ -8,7 +8,7 @@ public class EventHubController {
 	
 	@GetMapping(value="/message")
 	public String getMessage() {
-		return "This is message from webapp in new workspace deployed on Azure";
+		return "This is message from webapp in new workspace deployed on Azure!!!!!";
 	}
 	
 	
