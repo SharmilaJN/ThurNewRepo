@@ -1,4 +1,4 @@
-package com.harman;
+package com.example.demo;
 import com.azure.messaging.eventhubs.*;
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +16,7 @@ public class EventhubJsonIngetionApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(EventhubJsonIngetionApplication.class, args);
-		publishEvents();
+		//publishEvents();
 			
 	}
 
